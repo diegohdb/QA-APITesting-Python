@@ -1,8 +1,7 @@
-Simple structured API Testing using Python
 
 <h1 align="left">:computer: QA-APITesting-Python -- IN PROGRESS  </h1>
 
-Testing automation for API using Python
+Simple structured API Testing using Python
 
 ## Introduction
 This project contains an automated API test suite for the web application <a href="http://165.227.93.41/lojinha-web/"> Lojinha </a> present in the course Teste De Software Para Iniciantes (TSPI) instructed by <a href="https://www.juliodelima.com.br/"> Julio de Lima </a>.
