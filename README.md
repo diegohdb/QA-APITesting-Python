@@ -4,7 +4,9 @@
 Simple structured API Testing using Python requests
 
 ## Introduction
-This project contains an automated API test suite for the web application <a href="http://165.227.93.41/lojinha-web/"> Lojinha </a> present in the course Teste De Software Para Iniciantes (TSPI) instructed by <a href="https://www.juliodelima.com.br/"> Julio de Lima </a>.
+This project contains an automated API test suite for the web application <a href="http://165.227.93.41/lojinha-web/"> Lojinha </a> present in the course Teste De Software Para Iniciantes (TSPI) instructed by <a href="https://www.juliodelima.com.br/"> Julio de Lima </a>. 
+
+The structure was based on this <a href="https://medium.com/@pedron.ketlin/testes-de-contrato-a-motiva%C3%A7%C3%A3o-b20c906ed16c">article</a> writen by Ketlin Pedron.
 
 The tests will cover the main functionalities in the <a href="http://165.227.93.41/lojinha">Lojinha API </a>. The <a href="http://165.227.93.41/lojinha-arquivos/Swagger.pdf"> API Swagger</a> contains all functionalities supported by the API to be tested.
 
