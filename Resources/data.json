@@ -1,8 +1,8 @@
 {
   "user": "Diego",
-  "login": "DiegoTester",
+  "login": "DTester",
   "password": "12345",
-  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvaWQiOiIxNTc5IiwidXN1YXJpb2xvZ2luIjoiRGllZ29UZXN0ZXIiLCJ1c3Vhcmlvbm9tZSI6IkRpZWdvIn0.P8r2XXBeRZcJtXYp1Ji9dr08pIgRemkKkwEgc7A_ZqU",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvaWQiOiIxNjA2IiwidXN1YXJpb2xvZ2luIjoiVGVzdGVyODgiLCJ1c3Vhcmlvbm9tZSI6IkRpZWdvIn0.89MaJBzeaxPF8k1x-cE1KWOA8KOhUwf0lcHNpmn5iaI",
   "product1": "Product Test 1",
   "value1": 1000,
   "colors_many": [
@@ -33,6 +33,6 @@
     "componentenome": "Component New",
     "componentequantidade": 25
   },
-  "product_id": 8735,
-  "component_id": 3780
+  "product_id": 8747,
+  "component_id": {}
 }

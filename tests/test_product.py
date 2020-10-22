@@ -1,4 +1,7 @@
 import unittest
+
+import pytest
+
 from Requests.requests import Requests
 from Resources import utils as Utils
 
@@ -20,6 +23,7 @@ class User(unittest.TestCase):
         self.component_many = self.data['components_many']
         self.product_id = self.data['product_id']
 
+    @pytest.mark.run(order=1)
     def test_add_product(self):
         response = self.request.add_product(self.token, self.product1, self.value1, self.colors_one,
                                             self.component_one)
@@ -31,6 +35,7 @@ class User(unittest.TestCase):
         else:
             assert False
 
+    @pytest.mark.run(order=2)
     def test_get_products(self):
         response = self.request.get_products(self.token)
 
@@ -45,6 +50,7 @@ class User(unittest.TestCase):
         else:
             assert False
 
+    @pytest.mark.run(order=3)
     def test_get_one_product(self):
         response = self.request.get_one_product(self.token, self.product_id)
 
@@ -60,6 +66,7 @@ class User(unittest.TestCase):
         else:
             assert False
 
+    @pytest.mark.run(order=4)
     def test_edit_product(self):
         response = self.request.edit_one_product(self.token, self.product_id, self.product1, 3000, self.colors_many,
                                                  self.component_one)
@@ -76,6 +83,7 @@ class User(unittest.TestCase):
         else:
             assert False
 
+    @pytest.mark.run(order=5)
     def test_delete_product(self):
         response = self.request.delete_product(self.token, self.product_id)
 

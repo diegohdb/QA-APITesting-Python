@@ -1,4 +1,7 @@
 import unittest
+
+import pytest
+
 from Requests.requests import Requests
 from Resources import utils as Utils
 
@@ -13,6 +16,7 @@ class User(unittest.TestCase):
         self.product_id = self.data['product_id']
         self.component_id = self.data['component_id']
 
+    @pytest.mark.run(order=1)
     def test_add_component(self):
         response = self.request.add_component(self.token, self.product_id, self.component_new)
 
@@ -33,6 +37,7 @@ class User(unittest.TestCase):
         else:
             assert False
 
+    @pytest.mark.run(order=2)
     def test_get_all_components(self):
         response = self.request.get_all_components(self.token, self.product_id)
 
@@ -49,6 +54,7 @@ class User(unittest.TestCase):
         else:
             assert False
 
+    @pytest.mark.run(order=3)
     def test_get_component(self):
         response = self.request.get_component(self.token, self.product_id, self.component_id)
 
@@ -67,6 +73,7 @@ class User(unittest.TestCase):
         else:
             assert False
 
+    @pytest.mark.run(order=4)
     def test_edit_component(self):
         response = self.request.edit_component(self.token, self.product_id, self.component_id,
                                                self.component_new['componentenome'], 300)
@@ -83,6 +90,7 @@ class User(unittest.TestCase):
         else:
             assert False
 
+    @pytest.mark.run(order=5)
     def test_delete_component(self):
         response = self.request.delete_component(self.token, self.product_id, self.component_id)
 
