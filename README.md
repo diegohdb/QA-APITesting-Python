@@ -1,5 +1,5 @@
 
-<h1 align="left">:computer: QA-APITesting-Python -- IN PROGRESS  </h1>
+<h1 align="left">:computer: QA-APITesting-Python  </h1>
 
 Simple structured API Testing using Python
 
