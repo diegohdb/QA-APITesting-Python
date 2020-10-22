@@ -2,5 +2,32 @@
   "user": "Diego",
   "login": "DiegoTester",
   "password": "12345",
-  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvaWQiOiIxNTc5IiwidXN1YXJpb2xvZ2luIjoiRGllZ29UZXN0ZXIiLCJ1c3Vhcmlvbm9tZSI6IkRpZWdvIn0.P8r2XXBeRZcJtXYp1Ji9dr08pIgRemkKkwEgc7A_ZqU"
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvaWQiOiIxNTc5IiwidXN1YXJpb2xvZ2luIjoiRGllZ29UZXN0ZXIiLCJ1c3Vhcmlvbm9tZSI6IkRpZWdvIn0.P8r2XXBeRZcJtXYp1Ji9dr08pIgRemkKkwEgc7A_ZqU",
+  "product1": "Product Test 1",
+  "value1": 1000,
+  "colors_many": [
+    "black",
+    "white",
+    "blue"
+  ],
+  "colors_one": [
+    "black"
+  ],
+  "components_one": [
+    {
+      "componentenome": "Component 1",
+      "componentequantidade": 10
+    }
+  ],
+  "components_many": [
+    {
+      "componentenome": "Component 2",
+      "componentequantidade": 100
+    },
+    {
+      "componentenome": "Component 3",
+      "componentequantidade": 500
+    }
+  ],
+  "product_id": 8732
 }

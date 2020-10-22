@@ -11,7 +11,7 @@ class User(unittest.TestCase):
         self.user = self.data['user']
         self.login = self.data['login']
         self.password = self.data['password']
-        # self.token = self.data['token']
+        self.token = self.data['token']
 
     def test_register_user(self):
         response = self.request.register_user(self.user, self.login, self.password)
@@ -32,10 +32,12 @@ class User(unittest.TestCase):
         if response.status_code == 200:
             response_dict = response.json()
             message = response_dict['message']
-            token = response_dict['data']['token']
+            data = response_dict['data']
+            token = data['token']
 
-            # assert token == self.token
-            assert message == 'Sucesso ao fazer login' and token == self.token
+            assert message == 'Sucesso ao realizar o login', 'Failed on message'
+            # assert message == 'Sucesso ao fazer login', 'Failed on message'
+            assert token == self.token
 
         else:
             assert False
