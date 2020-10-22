@@ -1,7 +1,5 @@
-import unittest
-
 import pytest
-
+import unittest
 from Requests.requests import Requests
 from Resources import utils as Utils
 

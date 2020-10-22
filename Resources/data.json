@@ -2,7 +2,7 @@
   "user": "Diego",
   "login": "DTester",
   "password": "12345",
-  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvaWQiOiIxNjA2IiwidXN1YXJpb2xvZ2luIjoiVGVzdGVyODgiLCJ1c3Vhcmlvbm9tZSI6IkRpZWdvIn0.89MaJBzeaxPF8k1x-cE1KWOA8KOhUwf0lcHNpmn5iaI",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvaWQiOiIxNjA4IiwidXN1YXJpb2xvZ2luIjoiRFRlc3RlciIsInVzdWFyaW9ub21lIjoiRGllZ28ifQ.7Mf4Mra4580pc_5VrlpQJh7zrDMevQ7O3VneaZ9qFpg",
   "product1": "Product Test 1",
   "value1": 1000,
   "colors_many": [

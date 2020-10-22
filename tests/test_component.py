@@ -1,12 +1,10 @@
-import unittest
-
 import pytest
-
+import unittest
 from Requests.requests import Requests
 from Resources import utils as Utils
 
 
-class User(unittest.TestCase):
+class Component(unittest.TestCase):
 
     def setUp(self):
         self.request = Requests()
