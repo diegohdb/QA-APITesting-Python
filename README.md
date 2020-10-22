@@ -32,16 +32,20 @@ pip3 install -r requirements.txt
 ## How to run?
 
 - Run the whole suite:
+
 Issue the below commands in project root directory
 ```
 python3 tests/suite.py
 ```
 
 - Run specific test cases: 
+
 Issue the below commands in project root directory
 ```
 py.test tests/test_user.py -vv
 ```
+
+__Note__: The API contains some inconsistencies with the message returned, so they are commented in the tests. And also, the function to delete the user data is not working as should.
 
 
 ## Author
