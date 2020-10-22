@@ -29,5 +29,10 @@
       "componentequantidade": 500
     }
   ],
-  "product_id": 8732
+  "component_new": {
+    "componentenome": "Component New",
+    "componentequantidade": 25
+  },
+  "product_id": 8735,
+  "component_id": 3780
 }

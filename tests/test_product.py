@@ -73,7 +73,6 @@ class User(unittest.TestCase):
             assert message == 'Produto alterado com sucesso', 'Failed on message'
             # assert message == 'Sucesso ao alterar o produto', 'Failed on message'
             assert product_value == 3000
-            assert True
         else:
             assert False
 

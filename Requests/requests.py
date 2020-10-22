@@ -72,3 +72,39 @@ class Requests:
         url = f'{self.base_url}/produto/{product_id}'
         headers = {'token': token}
         return requests.delete(url=url, headers=headers)
+
+    # Componente Requests
+    def add_component(self, token, product_id, component_dict):
+        url = f'{self.base_url}/produto/{product_id}/componente'
+        body = component_dict
+        headers = {'token': token}
+
+        return requests.post(url=url, headers=headers, json=body)
+
+    def get_all_components(self, token, product_id):
+        url = f'{self.base_url}/produto/{product_id}/componente'
+        headers = {'token': token}
+
+        return requests.get(url=url, headers=headers)
+
+    def get_component(self, token, product_id, component_id):
+        url = f'{self.base_url}/produto/{product_id}/componente/{component_id}'
+        headers = {'token': token}
+
+        return requests.get(url=url, headers=headers)
+
+    def edit_component(self, token, product_id, component_id, component_name, component_quantity):
+        url = f'{self.base_url}/produto/{product_id}/componente/{component_id}'
+        headers = {'token': token}
+        body = {
+            "componentenome": component_name,
+            "componentequantidade": component_quantity
+        }
+
+        return requests.put(url=url, headers=headers, json=body)
+
+    def delete_component(self, token, product_id, component_id):
+        url = f'{self.base_url}/produto/{product_id}/componente/{component_id}'
+        headers = {'token': token}
+
+        return requests.delete(url=url, headers=headers)
