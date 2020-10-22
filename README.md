@@ -1,7 +1,7 @@
 
 <h1 align="left">:computer: QA-APITesting-Python  </h1>
 
-Simple structured API Testing using Python requests
+Simple structured API REST Testing using Python requests
 
 ## Introduction
 This project contains an automated API test suite for the web application <a href="http://165.227.93.41/lojinha-web/"> Lojinha </a> present in the course Teste De Software Para Iniciantes (TSPI) instructed by <a href="https://www.juliodelima.com.br/"> Julio de Lima </a>. 
